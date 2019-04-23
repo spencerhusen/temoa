@@ -1,6 +1,7 @@
 #!/bin/bash
+echo Enter input file: 
+read datafile
 cd project
-javac FileSelector.java
-java FileSelector
+python FileSelector.py $datafile
 cd ..
 python temoa_model/ --config=project/config_sample
