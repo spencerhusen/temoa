@@ -4,4 +4,4 @@ read datafile
 cd project
 python FileSelector.py $datafile
 cd ..
-python temoa_model/ --config=project/config_sample
+python temoa_model/ --config=temoa_model/config_sample

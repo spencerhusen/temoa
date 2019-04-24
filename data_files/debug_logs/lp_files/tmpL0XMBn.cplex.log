@@ -1,0 +1,416 @@
+
+Log started (V12.6.3.0) Thu Feb 14 00:07:02 2019
+
+
+Problem '/home/djsodano/temoa/data_files/debug_logs/lp_files/tmpZPLJTU.pyomo.lp' read.
+Read time = 11.43 sec. (699.57 ticks)
+
+Problem name         : /home/djsodano/temoa/data_files/debug_logs/lp_files/tmpZPLJTU.pyomo.lp
+Objective sense      : Minimize
+Variables            : 4739801
+Objective nonzeros   :     258
+Linear constraints   : 5326650  [Less: 1725725,  Greater: 43800,  Equal: 3557125]
+  Nonzeros           : 17360391
+  RHS nonzeros       :    8869
+
+Variables            : Min LB: 0.000000         Max UB: all infinite   
+Objective nonzeros   : Min   : 0.007000000      Max   : 6571.578       
+Linear constraints   :
+  Nonzeros           : Min   : 3.600606e-07     Max   : 277.7310       
+  RHS nonzeros       : Min   : 0.007200000      Max   : 127.7000       
+Parallel mode: deterministic, using up to 24 threads for concurrent optimization.
+Aggregator has done 1437821 substitutions...
+Aggregator has done 1439821 substitutions...
+Aggregator has done 1441821 substitutions...
+Aggregator has done 1443821 substitutions...
+Aggregator has done 1445815 substitutions...
+Aggregator has done 1447815 substitutions...
+Aggregator has done 1449715 substitutions...
+Aggregator has done 1451615 substitutions...
+Aggregator has done 1453515 substitutions...
+Aggregator has done 1472923 substitutions...
+Aggregator has done 1474823 substitutions...
+Aggregator has done 1476723 substitutions...
+Aggregator has done 1478523 substitutions...
+Aggregator has done 1480323 substitutions...
+Tried aggregator 1 time.
+LP Presolve eliminated 3434519 rows and 2733764 columns.
+Aggregator did 1489196 substitutions.
+Reduced LP has 402935 rows, 516841 columns, and 1979692 nonzeros.
+Presolve time = 99.16 sec. (145945.77 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =          8764.278863
+Iteration:   956   Dual objective     =          9004.855477
+Iteration:  3693   Dual objective     =          9359.276818
+Iteration:  5804   Dual objective     =          9605.304392
+Perturbation started.
+Iteration:  6363   Dual objective     =          9617.152416
+Iteration:  9236   Dual objective     =          9743.733172
+Iteration: 10581   Dual objective     =         10043.791956
+Iteration: 12435   Dual objective     =         10117.053386
+Iteration: 14675   Dual objective     =         10211.170135
+Iteration: 15508   Dual objective     =         10225.992269
+Iteration: 18050   Dual objective     =         10266.540528
+Iteration: 18670   Dual objective     =         10285.277153
+Iteration: 19327   Dual objective     =         10296.285414
+Iteration: 20750   Dual objective     =         10329.216211
+Iteration: 22668   Dual objective     =         10354.826410
+Elapsed time = 14.57 sec. (10002.10 ticks, 23454 iterations)
+Iteration: 23793   Dual objective     =         10381.175796
+Iteration: 25273   Dual objective     =         10409.029263
+Iteration: 28091   Dual objective     =         10415.388934
+Iteration: 28413   Dual objective     =         10424.319673
+Iteration: 30897   Dual objective     =         10444.139124
+Iteration: 31290   Dual objective     =         10472.422795
+Iteration: 32431   Dual objective     =         10495.750297
+Iteration: 34196   Dual objective     =         10502.666144
+Iteration: 35668   Dual objective     =         10511.254357
+Iteration: 35955   Dual objective     =         10513.965894
+Iteration: 37436   Dual objective     =         10532.647215
+Iteration: 37892   Dual objective     =         10548.202365
+Iteration: 39313   Dual objective     =         10562.079515
+Iteration: 40640   Dual objective     =         10571.006675
+Iteration: 40976   Dual objective     =         10574.896556
+Iteration: 41920   Dual objective     =         10580.693737
+Iteration: 42957   Dual objective     =         10590.513083
+Elapsed time = 32.00 sec. (20050.82 ticks, 44520 iterations)
+Iteration: 44520   Dual objective     =         10608.401406
+Iteration: 44865   Dual objective     =         10608.660074
+Iteration: 46076   Dual objective     =         10612.439591
+Iteration: 47689   Dual objective     =         10617.889052
+Iteration: 48523   Dual objective     =         10626.690310
+Iteration: 49498   Dual objective     =         10636.432516
+Iteration: 50605   Dual objective     =         10644.078283
+Iteration: 51903   Dual objective     =         10652.477262
+Iteration: 52656   Dual objective     =         10663.863963
+Iteration: 54301   Dual objective     =         10675.907262
+Iteration: 55088   Dual objective     =         10684.512964
+Iteration: 56173   Dual objective     =         10699.387426
+Iteration: 57084   Dual objective     =         10709.114795
+Iteration: 58285   Dual objective     =         10717.713941
+Iteration: 58980   Dual objective     =         10735.820735
+Iteration: 60269   Dual objective     =         10754.858141
+Iteration: 61515   Dual objective     =         10763.107353
+Iteration: 62821   Dual objective     =         10779.953402
+Elapsed time = 43.95 sec. (30050.82 ticks, 62928 iterations)
+Iteration: 64124   Dual objective     =         10799.676318
+Iteration: 65427   Dual objective     =         10812.866546
+Iteration: 66455   Dual objective     =         10833.269592
+Iteration: 68154   Dual objective     =         10854.496676
+Iteration: 68534   Dual objective     =         10855.691178
+Iteration: 69310   Dual objective     =         10870.398096
+Iteration: 70680   Dual objective     =         10893.741143
+Iteration: 71774   Dual objective     =         10907.929659
+Elapsed time = 57.37 sec. (40057.50 ticks, 72848 iterations)
+Iteration: 72860   Dual objective     =         10915.109299
+Iteration: 73409   Dual objective     =         10915.177360
+Elapsed time = 71.58 sec. (50061.41 ticks, 73931 iterations)
+Iteration: 74034   Dual objective     =         10921.904420
+Iteration: 74914   Dual objective     =         10935.872023
+Iteration: 75747   Dual objective     =         10953.081664
+Removing perturbation.
+Using devex.
+
+Iteration log . . .
+Iteration:     1    Scaled infeas =             0.000002
+Iteration:  9411    Objective     =         11538.600753
+Iteration:  9412    Objective     =         11538.582788
+Elapsed time = 23.44 sec. (12786.25 ticks, 9419 iterations)
+Elapsed time = 121.11 sec. (22792.88 ticks, 10283 iterations)
+Elapsed time = 163.18 sec. (34475.91 ticks, 10517 iterations)
+Elapsed time = 195.42 sec. (44526.95 ticks, 10684 iterations)
+Elapsed time = 247.73 sec. (56553.93 ticks, 10897 iterations)
+Elapsed time = 289.62 sec. (66627.20 ticks, 11099 iterations)
+Elapsed time = 312.67 sec. (76657.95 ticks, 11202 iterations)
+Iteration: 11244    Objective     =         11536.205377
+Elapsed time = 335.74 sec. (88184.49 ticks, 11316 iterations)
+Elapsed time = 357.67 sec. (98238.22 ticks, 11391 iterations)
+Elapsed time = 375.42 sec. (108238.30 ticks, 11465 iterations)
+Elapsed time = 402.54 sec. (118279.81 ticks, 11691 iterations)
+Elapsed time = 435.29 sec. (128303.44 ticks, 11883 iterations)
+Elapsed time = 484.53 sec. (138363.67 ticks, 12193 iterations)
+Elapsed time = 507.56 sec. (148653.82 ticks, 12294 iterations)
+Elapsed time = 558.46 sec. (158668.55 ticks, 12572 iterations)
+Elapsed time = 604.14 sec. (168687.37 ticks, 12830 iterations)
+Elapsed time = 635.40 sec. (178689.76 ticks, 13024 iterations)
+Iteration: 13059    Objective     =         11534.532550
+Elapsed time = 685.68 sec. (188695.39 ticks, 13305 iterations)
+Elapsed time = 724.74 sec. (198750.14 ticks, 13475 iterations)
+Elapsed time = 765.27 sec. (208752.52 ticks, 13736 iterations)
+Elapsed time = 799.33 sec. (218755.46 ticks, 13932 iterations)
+Elapsed time = 849.36 sec. (228796.96 ticks, 14444 iterations)
+Elapsed time = 882.77 sec. (238853.42 ticks, 14583 iterations)
+Elapsed time = 911.50 sec. (248861.68 ticks, 14731 iterations)
+Iteration: 14929    Objective     =         11531.909657
+Elapsed time = 955.43 sec. (258911.54 ticks, 14930 iterations)
+Elapsed time = 1002.90 sec. (268968.45 ticks, 15167 iterations)
+Elapsed time = 1051.93 sec. (278968.69 ticks, 15531 iterations)
+Elapsed time = 1123.16 sec. (289047.80 ticks, 16666 iterations)
+Iteration: 17236    Objective     =         11531.758864
+Elapsed time = 1165.90 sec. (299084.27 ticks, 17272 iterations)
+Elapsed time = 1195.23 sec. (309906.86 ticks, 17363 iterations)
+Elapsed time = 1237.03 sec. (320083.58 ticks, 17676 iterations)
+Elapsed time = 1265.18 sec. (332435.95 ticks, 17961 iterations)
+Elapsed time = 1305.43 sec. (342508.52 ticks, 18211 iterations)
+Elapsed time = 1327.25 sec. (353216.46 ticks, 18303 iterations)
+Elapsed time = 1366.10 sec. (363221.11 ticks, 18543 iterations)
+Elapsed time = 1399.71 sec. (373261.26 ticks, 18738 iterations)
+Iteration: 18751    Objective     =         11530.450575
+Elapsed time = 1423.96 sec. (386894.17 ticks, 18852 iterations)
+Elapsed time = 1433.51 sec. (398057.70 ticks, 18873 iterations)
+Elapsed time = 1490.99 sec. (408063.56 ticks, 19812 iterations)
+Elapsed time = 1549.35 sec. (418079.91 ticks, 20208 iterations)
+Elapsed time = 1583.65 sec. (428107.99 ticks, 20359 iterations)
+Elapsed time = 1612.40 sec. (438170.85 ticks, 20462 iterations)
+Iteration: 20501    Objective     =         11529.226588
+Elapsed time = 1661.62 sec. (448949.42 ticks, 20632 iterations)
+Elapsed time = 1682.15 sec. (458953.96 ticks, 20727 iterations)
+Elapsed time = 1718.43 sec. (469003.84 ticks, 20889 iterations)
+Elapsed time = 1765.97 sec. (480082.14 ticks, 21044 iterations)
+Elapsed time = 1809.93 sec. (490107.90 ticks, 21266 iterations)
+Elapsed time = 1837.25 sec. (500108.90 ticks, 21381 iterations)
+Elapsed time = 1885.73 sec. (510178.41 ticks, 21580 iterations)
+Elapsed time = 1913.17 sec. (520192.25 ticks, 21689 iterations)
+Elapsed time = 1967.96 sec. (536176.03 ticks, 21959 iterations)
+Iteration: 21978    Objective     =         11527.240186
+Elapsed time = 2025.09 sec. (546183.30 ticks, 22527 iterations)
+Elapsed time = 2057.13 sec. (556301.88 ticks, 22827 iterations)
+Elapsed time = 2114.86 sec. (566310.95 ticks, 23295 iterations)
+Elapsed time = 2145.08 sec. (576368.70 ticks, 23383 iterations)
+Elapsed time = 2199.63 sec. (586368.94 ticks, 23633 iterations)
+Elapsed time = 2228.92 sec. (596395.03 ticks, 23752 iterations)
+Elapsed time = 2261.40 sec. (607284.57 ticks, 23849 iterations)
+Iteration: 23900    Objective     =         11525.198379
+Elapsed time = 2314.79 sec. (617285.28 ticks, 24219 iterations)
+Elapsed time = 2349.80 sec. (627318.22 ticks, 24349 iterations)
+Elapsed time = 2404.30 sec. (637348.08 ticks, 25001 iterations)
+Elapsed time = 2436.37 sec. (647354.47 ticks, 25211 iterations)
+Elapsed time = 2480.90 sec. (657366.84 ticks, 25410 iterations)
+Elapsed time = 2515.82 sec. (669420.03 ticks, 25667 iterations)
+Iteration: 25667    Objective     =         11523.637211
+Elapsed time = 2553.35 sec. (680067.37 ticks, 25878 iterations)
+Elapsed time = 2589.31 sec. (690119.29 ticks, 26148 iterations)
+Elapsed time = 2614.15 sec. (701922.08 ticks, 26301 iterations)
+Elapsed time = 2649.65 sec. (715523.82 ticks, 26505 iterations)
+Elapsed time = 2681.57 sec. (725622.78 ticks, 26649 iterations)
+Elapsed time = 2716.16 sec. (735633.83 ticks, 26813 iterations)
+Elapsed time = 2750.56 sec. (745652.31 ticks, 26970 iterations)
+Elapsed time = 2775.88 sec. (756454.14 ticks, 27041 iterations)
+Iteration: 27041    Objective     =         11518.548203
+Elapsed time = 2804.29 sec. (768416.00 ticks, 27319 iterations)
+Elapsed time = 2825.33 sec. (778508.73 ticks, 27435 iterations)
+Elapsed time = 2867.21 sec. (790135.90 ticks, 28059 iterations)
+Elapsed time = 2896.11 sec. (800170.14 ticks, 28248 iterations)
+Elapsed time = 2918.86 sec. (810173.67 ticks, 28334 iterations)
+Elapsed time = 2950.21 sec. (820480.57 ticks, 28457 iterations)
+Elapsed time = 2983.45 sec. (832040.28 ticks, 28595 iterations)
+Elapsed time = 3027.85 sec. (846202.03 ticks, 28751 iterations)
+Iteration: 28814    Objective     =         11513.661786
+Elapsed time = 3055.91 sec. (856255.27 ticks, 28887 iterations)
+Elapsed time = 3086.20 sec. (868502.15 ticks, 29100 iterations)
+Elapsed time = 3118.74 sec. (878506.76 ticks, 29292 iterations)
+Elapsed time = 3156.97 sec. (892722.29 ticks, 29536 iterations)
+Elapsed time = 3191.23 sec. (902756.05 ticks, 29664 iterations)
+Elapsed time = 3225.27 sec. (912799.91 ticks, 29813 iterations)
+Elapsed time = 3258.93 sec. (922859.91 ticks, 29932 iterations)
+Elapsed time = 3294.52 sec. (933173.87 ticks, 30420 iterations)
+Iteration: 30420    Objective     =         11509.029776
+Elapsed time = 3325.94 sec. (943247.24 ticks, 30739 iterations)
+Elapsed time = 3354.74 sec. (956454.54 ticks, 30896 iterations)
+Elapsed time = 3379.45 sec. (968154.36 ticks, 31076 iterations)
+Elapsed time = 3411.96 sec. (981725.69 ticks, 31301 iterations)
+Elapsed time = 3467.29 sec. (997796.66 ticks, 31628 iterations)
+Elapsed time = 3514.75 sec. (1011672.16 ticks, 31843 iterations)
+Elapsed time = 3565.06 sec. (1024588.36 ticks, 32194 iterations)
+Iteration: 32194    Objective     =         11504.595481
+Elapsed time = 3613.69 sec. (1034625.32 ticks, 32523 iterations)
+Elapsed time = 3640.00 sec. (1044635.91 ticks, 32833 iterations)
+Elapsed time = 3669.31 sec. (1058214.78 ticks, 33013 iterations)
+Elapsed time = 3701.01 sec. (1072963.87 ticks, 33204 iterations)
+Elapsed time = 3731.70 sec. (1083070.34 ticks, 33462 iterations)
+Elapsed time = 3760.06 sec. (1093074.99 ticks, 33601 iterations)
+Iteration: 33628    Objective     =         11500.865715
+Elapsed time = 3789.39 sec. (1103079.12 ticks, 33754 iterations)
+Elapsed time = 3815.59 sec. (1115631.31 ticks, 33992 iterations)
+Elapsed time = 3869.62 sec. (1125732.22 ticks, 34341 iterations)
+Elapsed time = 3893.87 sec. (1135806.73 ticks, 34437 iterations)
+Elapsed time = 3920.24 sec. (1146422.38 ticks, 34615 iterations)
+Elapsed time = 3962.26 sec. (1159663.45 ticks, 34836 iterations)
+Elapsed time = 4007.07 sec. (1173610.88 ticks, 35106 iterations)
+Iteration: 35256    Objective     =         11497.465631
+Elapsed time = 4040.67 sec. (1183661.85 ticks, 35442 iterations)
+Elapsed time = 4066.06 sec. (1193714.14 ticks, 35716 iterations)
+Elapsed time = 4107.52 sec. (1207229.23 ticks, 36013 iterations)
+Elapsed time = 4152.51 sec. (1217277.69 ticks, 36300 iterations)
+Elapsed time = 4178.85 sec. (1227278.27 ticks, 36465 iterations)
+Elapsed time = 4220.22 sec. (1242446.23 ticks, 36606 iterations)
+Elapsed time = 4269.73 sec. (1259796.66 ticks, 36799 iterations)
+Iteration: 36884    Objective     =         11494.515904
+Elapsed time = 4307.06 sec. (1269846.24 ticks, 36894 iterations)
+Elapsed time = 4331.19 sec. (1279899.36 ticks, 36960 iterations)
+Elapsed time = 4354.28 sec. (1289943.01 ticks, 37044 iterations)
+Elapsed time = 4392.05 sec. (1303365.76 ticks, 37180 iterations)
+Elapsed time = 4433.08 sec. (1318034.69 ticks, 37327 iterations)
+Elapsed time = 4476.55 sec. (1331713.59 ticks, 37477 iterations)
+Elapsed time = 4511.78 sec. (1344917.23 ticks, 37603 iterations)
+Elapsed time = 4554.62 sec. (1359231.71 ticks, 37769 iterations)
+Elapsed time = 4592.02 sec. (1370489.51 ticks, 38336 iterations)
+Iteration: 38336    Objective     =         11491.238455
+Elapsed time = 4642.97 sec. (1380509.37 ticks, 38747 iterations)
+Elapsed time = 4668.69 sec. (1390529.54 ticks, 38839 iterations)
+Elapsed time = 4727.26 sec. (1400549.42 ticks, 39171 iterations)
+Elapsed time = 4749.73 sec. (1410602.91 ticks, 39242 iterations)
+Elapsed time = 4777.90 sec. (1422919.84 ticks, 39407 iterations)
+Elapsed time = 4825.25 sec. (1438194.47 ticks, 39573 iterations)
+Elapsed time = 4855.61 sec. (1448272.02 ticks, 39731 iterations)
+Iteration: 39731    Objective     =         11488.842360
+Elapsed time = 4877.46 sec. (1458301.67 ticks, 39866 iterations)
+Elapsed time = 4898.91 sec. (1468641.83 ticks, 39944 iterations)
+Elapsed time = 4936.01 sec. (1482797.18 ticks, 40144 iterations)
+Elapsed time = 4970.47 sec. (1496244.23 ticks, 40310 iterations)
+Elapsed time = 5009.11 sec. (1509202.86 ticks, 40435 iterations)
+Elapsed time = 5047.25 sec. (1521165.69 ticks, 40541 iterations)
+Elapsed time = 5084.67 sec. (1533096.38 ticks, 40651 iterations)
+Elapsed time = 5127.31 sec. (1546497.18 ticks, 40802 iterations)
+Elapsed time = 5175.54 sec. (1560371.25 ticks, 40973 iterations)
+Iteration: 41027    Objective     =         11484.665185
+Elapsed time = 5214.67 sec. (1570514.29 ticks, 41108 iterations)
+Elapsed time = 5244.73 sec. (1580625.99 ticks, 41209 iterations)
+Elapsed time = 5274.27 sec. (1591133.84 ticks, 41373 iterations)
+Elapsed time = 5315.39 sec. (1603889.79 ticks, 41496 iterations)
+Elapsed time = 5352.04 sec. (1615736.05 ticks, 41602 iterations)
+Elapsed time = 5389.49 sec. (1628212.07 ticks, 41739 iterations)
+Elapsed time = 5424.18 sec. (1640900.76 ticks, 41853 iterations)
+Elapsed time = 5462.27 sec. (1654453.16 ticks, 42022 iterations)
+Elapsed time = 5505.99 sec. (1667850.21 ticks, 42230 iterations)
+Iteration: 42336    Objective     =         11481.014806
+Elapsed time = 5536.74 sec. (1677892.55 ticks, 42438 iterations)
+Elapsed time = 5577.50 sec. (1691779.66 ticks, 42778 iterations)
+Elapsed time = 5605.99 sec. (1703482.43 ticks, 42982 iterations)
+Elapsed time = 5639.85 sec. (1713484.71 ticks, 44101 iterations)
+Iteration: 44325    Objective     =         11479.455492
+Elapsed time = 5665.95 sec. (1723530.63 ticks, 45060 iterations)
+Elapsed time = 5697.82 sec. (1733573.27 ticks, 46331 iterations)
+Iteration: 46964    Objective     =         11478.790973
+Elapsed time = 5723.77 sec. (1743577.98 ticks, 47056 iterations)
+Elapsed time = 5755.98 sec. (1753640.17 ticks, 47709 iterations)
+Elapsed time = 5785.56 sec. (1763642.02 ticks, 49304 iterations)
+Iteration: 49411    Objective     =         11478.388740
+Elapsed time = 5811.55 sec. (1773642.16 ticks, 49973 iterations)
+Elapsed time = 5841.76 sec. (1783706.98 ticks, 50689 iterations)
+Elapsed time = 5870.95 sec. (1793773.46 ticks, 51490 iterations)
+Iteration: 51688    Objective     =         11478.142713
+Elapsed time = 5896.40 sec. (1803826.80 ticks, 51896 iterations)
+Elapsed time = 5927.92 sec. (1813828.04 ticks, 52542 iterations)
+Elapsed time = 5960.11 sec. (1823828.67 ticks, 53058 iterations)
+Iteration: 53902    Objective     =         11478.107828
+Elapsed time = 5986.61 sec. (1833858.47 ticks, 54045 iterations)
+Elapsed time = 6024.52 sec. (1843863.24 ticks, 54685 iterations)
+Elapsed time = 6064.77 sec. (1853882.47 ticks, 55095 iterations)
+Elapsed time = 6107.28 sec. (1863926.32 ticks, 55447 iterations)
+Elapsed time = 6143.98 sec. (1874051.70 ticks, 55753 iterations)
+Iteration: 55753    Objective     =         11478.072949
+Elapsed time = 6186.44 sec. (1884114.16 ticks, 56286 iterations)
+Elapsed time = 6219.96 sec. (1894178.15 ticks, 56799 iterations)
+Elapsed time = 6258.51 sec. (1904190.39 ticks, 57205 iterations)
+Elapsed time = 6295.65 sec. (1914197.16 ticks, 57570 iterations)
+Elapsed time = 6330.67 sec. (1925282.50 ticks, 57904 iterations)
+Iteration: 57904    Objective     =         11478.029218
+Elapsed time = 6378.69 sec. (1935344.38 ticks, 58331 iterations)
+Elapsed time = 6416.49 sec. (1945344.57 ticks, 59267 iterations)
+Elapsed time = 6461.36 sec. (1955410.76 ticks, 59692 iterations)
+Elapsed time = 6498.46 sec. (1965441.45 ticks, 59968 iterations)
+Iteration: 60222    Objective     =         11478.011023
+Elapsed time = 6530.46 sec. (1975445.53 ticks, 60430 iterations)
+Elapsed time = 6573.04 sec. (1985498.22 ticks, 61168 iterations)
+Iteration: 62197    Objective     =         11478.005620
+Elapsed time = 6602.34 sec. (1995498.79 ticks, 62376 iterations)
+Iteration: 63382    Objective     =         11478.005620
+Elapsed time = 6615.80 sec. (2008065.63 ticks, 64567 iterations)
+Iteration: 64567    Objective     =         11478.005620
+Iteration: 65752    Objective     =         11478.005620
+Elapsed time = 6628.26 sec. (2020142.43 ticks, 66937 iterations)
+Iteration: 66937    Objective     =         11478.005620
+Perturbation started.
+Iteration: 67800    Scaled infeas =             0.000019
+Elapsed time = 6655.14 sec. (2030222.90 ticks, 71004 iterations)
+Iteration: 71796    Scaled infeas =             0.000007
+Elapsed time = 6685.33 sec. (2042292.44 ticks, 73575 iterations)
+Iteration: 73575    Scaled infeas =             0.000004
+Elapsed time = 6723.72 sec. (2052292.47 ticks, 77245 iterations)
+Elapsed time = 6762.42 sec. (2062293.04 ticks, 80575 iterations)
+Elapsed time = 6803.69 sec. (2074043.98 ticks, 83576 iterations)
+Iteration: 83576    Scaled infeas =             0.000004
+Elapsed time = 6854.40 sec. (2084044.12 ticks, 87853 iterations)
+Elapsed time = 6903.87 sec. (2094044.23 ticks, 91944 iterations)
+Iteration: 93577    Scaled infeas =             0.000005
+Elapsed time = 6944.10 sec. (2104045.31 ticks, 94897 iterations)
+Elapsed time = 6995.32 sec. (2114069.43 ticks, 99082 iterations)
+Iteration: 100926    Scaled infeas =             0.000005
+Elapsed time = 7036.62 sec. (2124071.11 ticks, 102308 iterations)
+Elapsed time = 7087.32 sec. (2134071.43 ticks, 106436 iterations)
+Elapsed time = 7138.16 sec. (2144072.49 ticks, 110556 iterations)
+Iteration: 110927    Scaled infeas =             0.000005
+Elapsed time = 7179.78 sec. (2154073.67 ticks, 113572 iterations)
+Elapsed time = 7220.35 sec. (2164075.23 ticks, 117807 iterations)
+Elapsed time = 7260.69 sec. (2174406.76 ticks, 120928 iterations)
+Iteration: 120928    Scaled infeas =             0.000005
+Elapsed time = 7310.57 sec. (2184452.20 ticks, 125140 iterations)
+Iteration: 128269    Scaled infeas =             0.000004
+Elapsed time = 7354.25 sec. (2194452.25 ticks, 128391 iterations)
+Elapsed time = 7405.11 sec. (2208084.00 ticks, 136965 iterations)
+Iteration: 136965    Scaled infeas =             0.000001
+Elapsed time = 7450.15 sec. (2219693.72 ticks, 146966 iterations)
+Iteration: 146966    Scaled infeas =             0.000001
+Iteration: 152694    Scaled infeas =             0.000044
+Elapsed time = 7478.09 sec. (2229792.26 ticks, 152814 iterations)
+Elapsed time = 7545.60 sec. (2239794.49 ticks, 153875 iterations)
+Elapsed time = 7570.17 sec. (2250116.56 ticks, 154118 iterations)
+Iteration: 154118    Scaled infeas =             0.000092
+Elapsed time = 7640.56 sec. (2260118.74 ticks, 155258 iterations)
+Elapsed time = 7681.19 sec. (2272684.54 ticks, 155739 iterations)
+Iteration: 155739    Scaled infeas =             0.000083
+Elapsed time = 7753.77 sec. (2282685.89 ticks, 156907 iterations)
+Iteration: 156929    Scaled infeas =             0.000083
+Elapsed time = 7780.38 sec. (2292688.69 ticks, 157251 iterations)
+Elapsed time = 7822.35 sec. (2307310.92 ticks, 158119 iterations)
+Iteration: 158119    Scaled infeas =             0.000083
+Elapsed time = 7867.66 sec. (2322168.71 ticks, 159207 iterations)
+Iteration: 159207    Scaled infeas =             0.000083
+Elapsed time = 7936.69 sec. (2332174.15 ticks, 160308 iterations)
+Iteration: 160397    Scaled infeas =             0.000083
+Elapsed time = 7961.89 sec. (2342264.56 ticks, 160591 iterations)
+Elapsed time = 8034.96 sec. (2361855.62 ticks, 161940 iterations)
+Iteration: 161940    Scaled infeas =             0.000083
+Elapsed time = 8051.38 sec. (2374565.21 ticks, 163132 iterations)
+Iteration: 163132    Scaled infeas =             0.000083
+Elapsed time = 8066.83 sec. (2387142.38 ticks, 164324 iterations)
+Iteration: 164324    Scaled infeas =             0.000083
+Elapsed time = 8081.37 sec. (2399604.38 ticks, 165516 iterations)
+Iteration: 165516    Scaled infeas =             0.000083
+Elapsed time = 8094.91 sec. (2411944.61 ticks, 166708 iterations)
+Iteration: 166708    Scaled infeas =             0.000083
+Elapsed time = 8107.94 sec. (2424351.44 ticks, 167900 iterations)
+Iteration: 167900    Scaled infeas =             0.000100
+Elapsed time = 8119.63 sec. (2436448.19 ticks, 169092 iterations)
+Iteration: 169092    Scaled infeas =             0.000100
+Elapsed time = 8158.13 sec. (2450003.12 ticks, 170434 iterations)
+Iteration: 170434    Scaled infeas =             0.000100
+Elapsed time = 8216.97 sec. (2460004.99 ticks, 171647 iterations)
+Iteration: 172057    Scaled infeas =             0.000099
+Elapsed time = 8230.48 sec. (2470005.81 ticks, 172103 iterations)
+Elapsed time = 8250.85 sec. (2481628.69 ticks, 173249 iterations)
+Iteration: 173249    Scaled infeas =             0.000099
+Elapsed time = 8271.35 sec. (2493145.15 ticks, 174441 iterations)
+Iteration: 174441    Scaled infeas =             0.000099
+Elapsed time = 8287.37 sec. (2504229.16 ticks, 175633 iterations)
+Iteration: 175633    Scaled infeas =             0.000099
+Elapsed time = 8301.82 sec. (2515243.38 ticks, 176825 iterations)
+Iteration: 176825    Scaled infeas =             0.000099
+Elapsed time = 8313.79 sec. (2526136.80 ticks, 178017 iterations)
+Iteration: 178017    Scaled infeas =             0.000099
+Elapsed time = 8323.25 sec. (2536550.30 ticks, 179209 iterations)
+Iteration: 179209    Scaled infeas =             0.000099
+Iteration: 180230    Scaled infeas =             0.000099
